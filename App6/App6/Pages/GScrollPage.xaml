@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.Pages.GScrollPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid x:Name="alarmsGrid">
+                <Grid.Resources>
+                    <Style TargetType="{x:Type RowDefinition}">
+                        <Setter Property="Height" Value="40" />                       
+                    </Style>
+                </Grid.Resources>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
